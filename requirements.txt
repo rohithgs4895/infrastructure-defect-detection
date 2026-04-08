@@ -1,0 +1,27 @@
+# Infrastructure Defect Detection — Python dependencies
+# Tested on Python 3.11 / Windows 11, conda env arcgis-dl
+# Install: pip install -r requirements.txt
+
+# ── Deep learning ─────────────────────────────────────────────────────────────
+tensorflow>=2.15,<3.0
+
+# ── Image processing ──────────────────────────────────────────────────────────
+opencv-python>=4.8
+Pillow>=10.0
+
+# ── Numerical / data ──────────────────────────────────────────────────────────
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.7
+
+# ── Geospatial ────────────────────────────────────────────────────────────────
+geopandas>=1.0
+shapely>=2.0
+pyproj>=3.6
+pyogrio>=0.7
+
+# ── Web application ───────────────────────────────────────────────────────────
+streamlit>=1.30
